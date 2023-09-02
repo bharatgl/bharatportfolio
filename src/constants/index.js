@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+    foodbybharat,
     web,
     javascript,
     typescript,
@@ -13,8 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+ 
     meta,
     starbucks,
     tesla,
@@ -31,9 +30,14 @@ import {
       title: "About",
     },
     {
+      id: "Resume",
+      title: "Resume",
+    },
+    {
       id: "work",
       title: "Work",
     },
+   
     {
       id: "contact",
       title: "Contact",
@@ -53,10 +57,10 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -104,14 +108,14 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -198,7 +202,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: " Food Deleivery ",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -214,9 +218,14 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "node",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: foodbybharat,
+      source_code_link: "https://github.com/foodbybharat",
+      live_link:'https://foodbybharat.netlify.app/'
     },
     {
       name: "Job IT",
